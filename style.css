@@ -1,0 +1,193 @@
+#cardN {
+  width: flex;
+  height: 50px;
+  background: red;
+}
+i {
+  margin: 7px;
+  cursor: pointer;
+}
+
+body {
+  background-image: url('blackBord.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.container {
+  max-width: 500px;
+  height: 100%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  text-align: center;
+}
+
+footer {
+  height: 52px;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-section {
+  width: 70%;
+  height: 30px;
+  padding: 5px;
+}
+
+.search-section form {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-section input {
+  background-color: #00000047;
+  width: 80%;
+  height: 20px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+
+  border: 1px solid #00000020;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-section button {
+  background-color: #00000083;
+  width: 26px;
+  height: 24px;
+  color: rgb(119, 119, 119);
+  border: 1px solid #00000020;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.icon-section {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-section i {
+  margin: 0px;
+}
+
+.dectionary-section {
+  width: 100%;
+  height: 82vh;
+  border-bottom: 1px solid black;
+
+  display: none;
+  justify-content: center;
+}
+
+#playSection {
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.check {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid black;
+}
+.game {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.sectionHeader {
+  background: orangered;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  border-bottom: 2px solid black;
+}
+
+.word-section {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.meaning-section {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add-Section {
+  width: 250px;
+  height: 300px;
+  background-color: #e5e5e5;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+  margin: auto;
+}
+
+.add-Section input {
+  background: white;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 5px;
+}
+
+.add-Section h1 {
+  font-size: 1rem;
+  text-align: center;
+  color: #222;
+}
+
+#submit {
+  background: green;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+#replay {
+  background: orangered;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+#replay:hover {
+  width: 105px;
+  height: 40px;
+  font-size: 1.1rem;
+}
